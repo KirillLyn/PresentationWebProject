@@ -1,0 +1,39 @@
+﻿@model PageViewModel
+@{
+	ViewData["Title"] = "Презентации";
+}
+
+
+	<div>
+
+		@foreach (var item in Model.ListPresent)
+		{
+			<section>
+
+				<figcaption>
+					@Html.DisplayFor(modelItem => item.Title)
+				</figcaption>
+				<div>Преподаватель: @Html.DisplayFor(modelItem => item.Teacher.FullName2)</div>
+
+				<figure>
+				<img src="~/img/@Html.DisplayFor(modelItem => item.Prewiew)">
+				</figure>
+				<span class="skachat"><a href="~/prezent/@Html.DisplayFor(modelItem => item.PresentationFileName)"><b>Скачать</b></a></span><br>
+
+			</section>
+
+		}
+		
+
+			
+
+
+
+	</div>
+	<nav>
+		@for (int i=1; i<=Model.CountPage; i++)
+		{
+			<span><a asp-action="Presentations" asp-route-page="@i">@i</a></span>
+		}
+	</nav>
+	

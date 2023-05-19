@@ -1,0 +1,57 @@
+body{
+	background-color:rgb(170,230,170) ;text-align:center;padding:20px;
+}
+article{background-color:rgb(137,220,137); 
+		width:80%; 
+		margin:0 auto;
+		border-radius:10px; 
+		border-right:5px groove rgb(68,200,68);
+		border-bottom:5px groove rgb(68,200,68);
+		
+		}
+		p{text-align:left; text-indent:5%;padding:0 5%}
+footer,header{margin:10px auto;}
+h1{font-size:3.5em;color:rgb(200,200,200);text-shadow:3px 3px 10px black;}
+nav{
+background-color:grey;
+	padding:25px 10px;
+	text-align:center;
+	border-radius:20px;
+	background-color:white;
+	 width:80%; margin:0 auto;
+	 box-shadow:10px 10px 20px gray;
+}
+figure,figcaption{margin:0 auto;width:80%;}
+figcaption{font-size:2em;font-style:bold;}
+figure{padding:10px;border-radius:20px;box-shadow:0 0 20px gray;}
+nav > span{
+	text-decoration:none;
+	margin:0 2px; 
+	border:1px solid grey;
+	border-radius:4px;
+	padding:4px 14px;
+	color:black;
+	background-color:#A9A9A9;
+	
+	
+}
+div{margin-bottom:2%;}
+span.menu{box-shadow:2px 2px 5px red;}
+
+.ntitle{text-transform:uppercase;}
+	a{text-decoration:none;color:black; }
+	section{margin:50px;}
+img{border-radius:20px; width:98%}
+
+
+
+span.skachat{
+	background-color:gray;
+	text-align:center;
+	border-radius:20px;
+	padding:10px 20px ;
+	
+	
+	
+}
+.skachat a{color:white;font-size: 24px; }
